@@ -1,0 +1,118 @@
+[Root]
+Most Recent Package=LMS_setup
+
+
+[Package|LMS_setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\18-10-2015\VBProject(LMS)\LMS_setup
+
+[Package|LMS_setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|LMS_setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|LMS_setup|Files Found]
+
+[Package|LMS_setup|Files Released]
+
+[Package|LMS_setup|Missing Dependency Information]
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\SysWOW64\msstdfmt.dll=
+
+[Package|LMS_setup|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSCOMCTL.OCX=
+
+[Package|LMS_setup|Files Added]
+D:\18-10-2015\VBProject(LMS)\clgdata.mdb=
+
+[Package|LMS_setup|Files Removed]
+
+[Package|LMS_setup|Files In Project]
+D:\18-10-2015\VBProject(LMS)\LMS.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\msstdfmt.dll=Yes
+C:\Windows\SysWOW64\MSCOMCT2.OCX=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\MSFLXGRD.OCX=Yes
+C:\Windows\SysWOW64\MSCOMCTL.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\18-10-2015\VBProject(LMS)\clgdata.mdb=Yes
+
+[Package|LMS_setup|Configure Registry Files]
+Applicable=No
+
+[Package|LMS_setup|Configure Remote Servers]
+Applicable=No
+
+[Package|LMS_setup|Install Locations]
+D:\18-10-2015\VBProject(LMS)\LMS.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\msstdfmt.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSFLXGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\18-10-2015\VBProject(LMS)\clgdata.mdb=$(AppPath)
+
+[Package|LMS_setup|Configure Shared Files]
+Applicable=Yes
+D:\18-10-2015\VBProject(LMS)\LMS.exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+D:\18-10-2015\VBProject(LMS)\clgdata.mdb=No
+
+[Package|LMS_setup|Distribution]
+Type=single
+Size=
+Title=LMS
+
+[Package|LMS_setup|IconGroups]
+Group0=LMS
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|LMS_setup|LMS]
+Icon1=LMS.exe
+Title1=LMS
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|LMS_setup|Package]
+PackageFolder=D:\18-10-2015\VBProject(LMS)\LMS_setup
+ProjectFolder=D:\18-10-2015\VBProject(LMS)
+ServerSideCab=
+File1=D:\18-10-2015\VBProject(LMS)\LMS_setup\setup.exe
+File2=D:\18-10-2015\VBProject(LMS)\LMS_setup\Setup.Lst
+File3=D:\18-10-2015\VBProject(LMS)\LMS_setup\LMS.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
